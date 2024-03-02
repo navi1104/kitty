@@ -1,13 +1,13 @@
 import React from 'react';
 import './styles/Header.css';
-import logo from '../images/logo.png'
 import { FaSearch, FaUser, FaShoppingCart } from 'react-icons/fa';
+import images from '../images/icon.png'
 
 const Header = () => {
     return (
         <header className="header">
             <div className="header__logo">
-                <img src={logo} alt="Logo" />
+                <img src={images} alt="Logo" />
             </div>
             <div className="header__search">
                 <input type="text" placeholder="Search" />
