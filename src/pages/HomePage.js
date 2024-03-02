@@ -1,8 +1,15 @@
 import React from 'react'
+import Header from '../Components/Header'
 
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <React.Fragment>
+      <Header />
+      <div>
+        HomePage
+      </div>
+  
+    </React.Fragment>
   )
 }
 

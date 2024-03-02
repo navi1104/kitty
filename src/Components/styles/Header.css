@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #cd82d9; /* Lite Purple */
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header__logo img {
+    width: 100px; /* Adjust as needed */
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px; /* Increased padding */
+}
+
+.header__search input[type="text"] {
+    border: none;
+    outline: none;
+    flex: 1; /* Take remaining space */
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-icon {
+    margin-right: 10px; /* Moved the icon inward */
+    color: #757575;
+    cursor: pointer;
+}
+
+.header__actions {
+    display: flex;
+    align-items: center;
+}
+
+.action-icon {
+    font-size: 20px;
+    margin-left: 10px; /* Adjusted margin */
+    color: #757575;
+    cursor: pointer;
+    border-radius: 50%; /* Make icons round */
+    padding: 8px; /* Add padding to make icons round */
+    background-color: #ffffff; /* Add background color to make icons round */
+}
+
+.home-button {
+    text-decoration: none;
+    color: #000000; /* Adjust color as needed */
+    font-weight: bold;
+    margin-left: 20px; /* Adjusted margin */
+}
+
+.header__logo img {
+    max-width: 50px; /* Set maximum width */
+    height: 50px; /* Maintain aspect ratio */
+}

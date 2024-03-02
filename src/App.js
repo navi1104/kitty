@@ -1,8 +1,11 @@
 import React from 'react'
+import HomePage from './Pages/HomePage'
 
 function App() {
   return (
-    <div>App</div>
+    <React.Fragment>
+      <HomePage />
+    </React.Fragment>
   )
 }
 
