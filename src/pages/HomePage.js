@@ -1,14 +1,16 @@
 import React from 'react'
+import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 
 function HomePage() {
   return (
-    <>
-    <div>
-      HomePage
-    </div>
-    <Footer />
-    </>
+    <React.Fragment>
+      <Header />
+      <div>
+        HomePage
+      </div>
+  
+    </React.Fragment>
   )
 }
 
